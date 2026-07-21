@@ -314,6 +314,11 @@ Confused about when to use Skills vs other Claude customization methods? Here's 
 
 ### 🔒 Security & Performance
 
+#### appsec-agent
+**Source:** [seqra/opentaint](https://github.com/seqra/opentaint/tree/main/skills)
+**Description:** AI agents turn security-review findings into reusable taint rules and dependency summaries. Because the engine reuses these rules instead of repeating that expensive work, later scans become fast, deterministic, precise, and thorough.
+**Use Case:** End-to-end SAST: build, scan, discover attack surface, model missing library flows, triage, and PoC-confirm true positives
+
 #### security-review
 **Status:** Community-needed
 **Description:** Automated vulnerability scanning and OWASP compliance checks.
